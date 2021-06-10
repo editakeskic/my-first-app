@@ -1,9 +1,9 @@
 function Modal() {
   return (
-    <div>
+    <div className='modal'>
       <p>Are you sure?</p>
-      <button>Cancel</button>
-      <button>Confirm</button>
+      <button className='btn btn--alt'>Cancel</button>
+      <button className='btn'>Confirm</button>
     </div>
   );
 }
